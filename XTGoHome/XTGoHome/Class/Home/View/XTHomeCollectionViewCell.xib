@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="XTHomeCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="347"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="347"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallboy" translatesAutoresizingMaskIntoConstraints="NO" id="966-4P-Hov">
+                        <rect key="frame" x="0.0" y="0.0" width="289" height="289"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="966-4P-Hov" secondAttribute="height" multiplier="1:1" id="7g6-Zr-kop"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小城记" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKy-Iw-RzP">
+                        <rect key="frame" x="0.0" y="289" width="289" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="x7Q-e1-pJu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ELO-O6-aOT">
+                        <rect key="frame" x="137" y="314" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="LUc-DA-wSo"/>
+                            <constraint firstAttribute="height" constant="15" id="tSg-1P-4q9"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="k0n-N6-s9I">
+                        <rect key="frame" x="157" y="314" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="hFf-H6-NpR"/>
+                            <constraint firstAttribute="height" constant="15" id="n3v-1D-fw6"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="z5s-FC-kek">
+                        <rect key="frame" x="117" y="314" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="APq-dN-tsK"/>
+                            <constraint firstAttribute="height" constant="15" id="MNC-Rx-lpf"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lPp-ex-2xx">
+                        <rect key="frame" x="177" y="314" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Ko2-Lf-hli"/>
+                            <constraint firstAttribute="width" constant="15" id="Uv7-M6-UOP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="dZP-Yp-62G">
+                        <rect key="frame" x="97" y="314" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Hwh-2Z-r8g"/>
+                            <constraint firstAttribute="width" constant="15" id="ncQ-vH-30t"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YKy-Iw-RzP" secondAttribute="trailing" id="3Iv-gA-MOe"/>
+                <constraint firstItem="ELO-O6-aOT" firstAttribute="leading" secondItem="z5s-FC-kek" secondAttribute="trailing" constant="5" id="64I-kn-VFW"/>
+                <constraint firstAttribute="trailing" secondItem="966-4P-Hov" secondAttribute="trailing" id="8VY-Gy-cVG"/>
+                <constraint firstItem="k0n-N6-s9I" firstAttribute="leading" secondItem="ELO-O6-aOT" secondAttribute="trailing" constant="5" id="Ao6-oF-5rV"/>
+                <constraint firstItem="lPp-ex-2xx" firstAttribute="leading" secondItem="k0n-N6-s9I" secondAttribute="trailing" constant="5" id="G2x-nf-ePo"/>
+                <constraint firstItem="YKy-Iw-RzP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MLv-7f-Dqw"/>
+                <constraint firstItem="966-4P-Hov" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NOY-2r-1zQ"/>
+                <constraint firstItem="ELO-O6-aOT" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Wrj-zA-JwT"/>
+                <constraint firstItem="dZP-Yp-62G" firstAttribute="top" secondItem="YKy-Iw-RzP" secondAttribute="bottom" id="Y0F-I0-dO8"/>
+                <constraint firstItem="lPp-ex-2xx" firstAttribute="top" secondItem="YKy-Iw-RzP" secondAttribute="bottom" id="arz-9q-fdH"/>
+                <constraint firstItem="k0n-N6-s9I" firstAttribute="top" secondItem="YKy-Iw-RzP" secondAttribute="bottom" id="hXI-E0-4dW"/>
+                <constraint firstItem="z5s-FC-kek" firstAttribute="top" secondItem="YKy-Iw-RzP" secondAttribute="bottom" id="j9p-DO-hPu"/>
+                <constraint firstItem="YKy-Iw-RzP" firstAttribute="top" secondItem="966-4P-Hov" secondAttribute="bottom" id="s3w-mS-FRn"/>
+                <constraint firstItem="z5s-FC-kek" firstAttribute="leading" secondItem="dZP-Yp-62G" secondAttribute="trailing" constant="5" id="sbE-4r-Kas"/>
+                <constraint firstItem="ELO-O6-aOT" firstAttribute="top" secondItem="YKy-Iw-RzP" secondAttribute="bottom" id="uhR-Wk-KCV"/>
+                <constraint firstItem="966-4P-Hov" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vsV-G9-1se"/>
+            </constraints>
+            <size key="customSize" width="339" height="347"/>
+            <point key="canvasLocation" x="12.5" y="63.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" width="12" height="12"/>
+        <image name="smallboy" width="200" height="150"/>
+    </resources>
+</document>

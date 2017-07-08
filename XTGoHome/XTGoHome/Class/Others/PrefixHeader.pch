@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  XTGoHome
+//
+//  Created by 华驰科技 on 2017/7/7.
+//  Copyright © 2017年 华驰科技. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "XTHeader.h"
+#import "XTColor.h"
+#import "SDCycleScrollView.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
