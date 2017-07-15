@@ -89,6 +89,10 @@
                 <constraint firstItem="966-4P-Hov" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vsV-G9-1se"/>
             </constraints>
             <size key="customSize" width="339" height="347"/>
+            <connections>
+                <outlet property="perImage" destination="966-4P-Hov" id="a92-rH-dh9"/>
+                <outlet property="personName" destination="YKy-Iw-RzP" id="IgN-b2-AND"/>
+            </connections>
             <point key="canvasLocation" x="12.5" y="63.5"/>
         </collectionViewCell>
     </objects>

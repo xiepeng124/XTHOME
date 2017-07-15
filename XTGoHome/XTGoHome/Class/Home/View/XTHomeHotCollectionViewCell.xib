@@ -70,16 +70,27 @@
                         </constraints>
                         <state key="normal" image="play"/>
                     </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLq-GA-f5U">
+                        <rect key="frame" x="266" y="187.5" width="85" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="9fx-S8-5Rp"/>
+                            <constraint firstAttribute="height" constant="20" id="KM9-fq-DKf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="2017-07-10"/>
+                    </button>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="JvU-TT-jU8" secondAttribute="trailing" constant="10" id="0S0-wt-u4U"/>
+                <constraint firstItem="vLq-GA-f5U" firstAttribute="bottom" secondItem="AeB-DP-mw8" secondAttribute="bottom" id="5cI-0D-Z0B"/>
                 <constraint firstItem="JvU-TT-jU8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="AUP-Fq-XLG"/>
                 <constraint firstItem="AeB-DP-mw8" firstAttribute="top" secondItem="Es3-rB-UgI" secondAttribute="bottom" id="Aj3-lr-pIg"/>
                 <constraint firstAttribute="trailing" secondItem="AeB-DP-mw8" secondAttribute="trailing" id="B74-gT-IZ7"/>
                 <constraint firstItem="iXS-K8-8oD" firstAttribute="centerY" secondItem="AeB-DP-mw8" secondAttribute="centerY" id="CWW-wI-kQi"/>
                 <constraint firstItem="VzH-W1-XOw" firstAttribute="top" secondItem="JvU-TT-jU8" secondAttribute="bottom" id="IGX-bK-Ycg"/>
                 <constraint firstItem="Es3-rB-UgI" firstAttribute="top" secondItem="JvU-TT-jU8" secondAttribute="bottom" id="LzO-M8-GLI"/>
+                <constraint firstAttribute="trailing" secondItem="vLq-GA-f5U" secondAttribute="trailing" id="OPG-sN-Bqg"/>
                 <constraint firstItem="VzH-W1-XOw" firstAttribute="leading" secondItem="U3N-4W-f9W" secondAttribute="trailing" constant="5" id="Qce-DJ-ezB"/>
                 <constraint firstAttribute="trailing" secondItem="Es3-rB-UgI" secondAttribute="trailing" constant="10" id="Z6O-xg-TzH"/>
                 <constraint firstItem="AeB-DP-mw8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Zin-X1-OPC"/>
@@ -90,6 +101,11 @@
                 <constraint firstItem="U3N-4W-f9W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yIb-1f-bAZ"/>
             </constraints>
             <size key="customSize" width="351" height="226"/>
+            <connections>
+                <outlet property="videoImage" destination="AeB-DP-mw8" id="VIk-G0-dze"/>
+                <outlet property="videoPerson" destination="VzH-W1-XOw" id="m9j-pC-9rd"/>
+                <outlet property="videoTitle" destination="JvU-TT-jU8" id="rtB-5j-awl"/>
+            </connections>
             <point key="canvasLocation" x="41.5" y="1"/>
         </collectionViewCell>
     </objects>

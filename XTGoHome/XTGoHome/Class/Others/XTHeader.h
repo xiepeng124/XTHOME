@@ -13,8 +13,13 @@
 #define FONT_BOLD   @"PingFangSC-Semibold"
 #define FONT_REGULAR @"PingFangSC-Regular"
 #define PINK_COLOR @"dd6981"
+#define DARK_PINK_COLOR @"e1597c"
 #define DARK_GARY_COLOR @"666666"
 #define WHITE_COLOR @"ffffff"
 #define BACK_COLOR @"e5e5e5"
 #define LIGHT_COLOR @"f2f2f2"
+#define DARK_COLOR @"333333"
+#define DARK_TWO_COLOR @"303030"
+#define LIGHT_GARY_COLOR @"999999"
+
 #endif /* XTHeader_h */

@@ -42,6 +42,12 @@
     [super viewDidLoad];
       self.view.backgroundColor = [UIColor redColor];
     [self initCollectionView];
+    UITextField *titleField = [[UITextField alloc]initWithFrame:CGRectMake(105, 11, SCREEN_WIDTH*0.6, 22)];
+   titleField.placeholder = @"搜索服务、月嫂、话题";
+    titleField.borderStyle = UITextBorderStyleRoundedRect;
+    titleField.font = [UIFont fontWithName:FONT_REGULAR size:12];
+    self.navigationItem.titleView = titleField;
+    
     // Do any additional setup after loading the view.
 }
 
@@ -88,6 +94,7 @@
             if (indexPath.section==1) {
                 [header.myImage setImage:[UIImage imageNamed:@"recommend"] forState:UIControlStateNormal];
                 header.menuTitle.text = @"本周推荐";
+                header.lineView.hidden = YES;
                 return header;
             }
             return header;
@@ -112,7 +119,7 @@
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section==1) {
-         return CGSizeMake((SCREEN_WIDTH-40)*0.33, (SCREEN_WIDTH-40)*0.33);
+         return CGSizeMake((SCREEN_WIDTH-40)*0.33, (SCREEN_WIDTH-40)*0.33+40);
     }
     if (indexPath.section==2) {
          return CGSizeMake(SCREEN_WIDTH, SCREEN_WIDTH*0.46+46);

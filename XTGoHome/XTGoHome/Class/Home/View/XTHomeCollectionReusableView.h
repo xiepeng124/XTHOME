@@ -11,5 +11,6 @@
 @interface XTHomeCollectionReusableView : UICollectionReusableView
 @property (weak, nonatomic) IBOutlet UIButton *myImage;
 @property (weak, nonatomic) IBOutlet UILabel *menuTitle;
+@property (weak, nonatomic) IBOutlet UIView *lineView;
 
 @end

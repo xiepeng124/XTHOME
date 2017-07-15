@@ -13,6 +13,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.backgroundColor = [XTColor colorWithHexString:WHITE_COLOR];
+    self.videoTitle.textColor = [XTColor colorWithHexString:@"303030"];
+    self.videoPerson.textColor = [XTColor colorWithHexString:DARK_GARY_COLOR];
     // Initialization code
 }
 

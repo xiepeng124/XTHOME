@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface XTHomeCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *personName;
+@property (weak, nonatomic) IBOutlet UIImageView *perImage;
 
 @end

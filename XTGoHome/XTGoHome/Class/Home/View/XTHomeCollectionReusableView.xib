@@ -50,6 +50,7 @@
                 <constraint firstItem="ePz-Gz-tB8" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="wvx-7s-1Je"/>
             </constraints>
             <connections>
+                <outlet property="lineView" destination="RCQ-80-A0B" id="KTK-AB-8G7"/>
                 <outlet property="menuTitle" destination="gH0-fo-uvc" id="KBD-fB-5or"/>
                 <outlet property="myImage" destination="ePz-Gz-tB8" id="bPt-2a-BIf"/>
             </connections>

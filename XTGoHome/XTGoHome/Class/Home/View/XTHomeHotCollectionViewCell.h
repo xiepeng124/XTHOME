@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface XTHomeHotCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *videoTitle;
+@property (weak, nonatomic) IBOutlet UILabel *videoPerson;
+@property (weak, nonatomic) IBOutlet UIImageView *videoImage;
 
 @end

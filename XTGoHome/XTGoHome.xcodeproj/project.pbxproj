@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0EE7401F18B91500995CB6 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0EE73F1F18B91500995CB6 /* libxml2.tbd */; };
+		4E0FD0FA1F15B9F1000CF92E /* XTPostMoodCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FD0F81F15B9F1000CF92E /* XTPostMoodCollectionReusableView.m */; };
+		4E0FD0FB1F15B9F1000CF92E /* XTPostMoodCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FD0F91F15B9F1000CF92E /* XTPostMoodCollectionReusableView.xib */; };
+		4E0FD0FF1F15C58C000CF92E /* XTPostMoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FD0FD1F15C58C000CF92E /* XTPostMoodCollectionViewCell.m */; };
+		4E0FD1001F15C58C000CF92E /* XTPostMoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FD0FE1F15C58C000CF92E /* XTPostMoodCollectionViewCell.xib */; };
+		4E0FD1031F1721FC000CF92E /* XTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FD1021F1721FC000CF92E /* XTButton.m */; };
+		4E1AC9861F19DACB002FB717 /* XTShareMoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC9841F19DACB002FB717 /* XTShareMoodTableViewCell.m */; };
+		4E1AC9871F19DACB002FB717 /* XTShareMoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1AC9851F19DACB002FB717 /* XTShareMoodTableViewCell.xib */; };
+		4E1AC98A1F19F5EE002FB717 /* XTShareOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC9891F19F5EE002FB717 /* XTShareOneViewController.m */; };
+		4E1AC98D1F19F605002FB717 /* XTShareTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC98C1F19F605002FB717 /* XTShareTwoViewController.m */; };
+		4E1AC9901F19F617002FB717 /* XTShareThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC98F1F19F617002FB717 /* XTShareThreeViewController.m */; };
 		4E1DEA9E1F10814B005E56C6 /* XTHomeSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEA9D1F10814B005E56C6 /* XTHomeSectionView.m */; };
 		4E1DEAA01F108165005E56C6 /* HomeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DEA9F1F108165005E56C6 /* HomeSectionView.xib */; };
 		4E1DEAA31F1095F7005E56C6 /* XTBannerCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEAA21F1095F7005E56C6 /* XTBannerCollectionReusableView.m */; };
@@ -17,6 +28,17 @@
 		4E1DEAB11F10C242005E56C6 /* XTHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DEAAF1F10C242005E56C6 /* XTHomeCollectionViewCell.xib */; };
 		4E1DEAB51F10C80E005E56C6 /* XTHomeHotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEAB31F10C80E005E56C6 /* XTHomeHotCollectionViewCell.m */; };
 		4E1DEAB61F10C80E005E56C6 /* XTHomeHotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DEAB41F10C80E005E56C6 /* XTHomeHotCollectionViewCell.xib */; };
+		4E532C321F132DB3008DA280 /* XTSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C311F132DB3008DA280 /* XTSlideSegmented.m */; };
+		4E532C351F132E15008DA280 /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C341F132E15008DA280 /* XLSlideSegmentedItem.m */; };
+		4E532C381F133239008DA280 /* XTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C371F133239008DA280 /* XTOneViewController.m */; };
+		4E532C3B1F13326F008DA280 /* XTSchoolTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C3A1F13326F008DA280 /* XTSchoolTwoViewController.m */; };
+		4E532C3E1F133285008DA280 /* XTSchoolThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C3D1F133285008DA280 /* XTSchoolThreeViewController.m */; };
+		4E532C421F133347008DA280 /* XTSchoolTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C401F133347008DA280 /* XTSchoolTableViewCell.m */; };
+		4E532C431F133347008DA280 /* XTSchoolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E532C411F133347008DA280 /* XTSchoolTableViewCell.xib */; };
+		4E532C461F134205008DA280 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C451F134205008DA280 /* CollectionViewController.m */; };
+		4E532C4A1F1350B3008DA280 /* XLSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C491F1350B3008DA280 /* XLSlideSwitch.m */; };
+		4E532C4F1F137E9A008DA280 /* XTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E532C4D1F137E9A008DA280 /* XTMeViewController.m */; };
+		4E532C501F137E9A008DA280 /* XTMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E532C4E1F137E9A008DA280 /* XTMeViewController.xib */; };
 		4E72D6B51F0F16F2008FB0B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D6B41F0F16F2008FB0B9 /* main.m */; };
 		4E72D6B81F0F16F2008FB0B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D6B71F0F16F2008FB0B9 /* AppDelegate.m */; };
 		4E72D6BB1F0F16F2008FB0B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D6BA1F0F16F2008FB0B9 /* ViewController.m */; };
@@ -26,7 +48,6 @@
 		4E72D6CE1F0F16F2008FB0B9 /* XTGoHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D6CD1F0F16F2008FB0B9 /* XTGoHomeTests.m */; };
 		4E72D6D91F0F16F2008FB0B9 /* XTGoHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D6D81F0F16F2008FB0B9 /* XTGoHomeUITests.m */; };
 		4E72D7181F0F3919008FB0B9 /* XTTabbrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D7171F0F3919008FB0B9 /* XTTabbrViewController.m */; };
-		4E72D71B1F0F3940008FB0B9 /* XTTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D71A1F0F3940008FB0B9 /* XTTabbar.m */; };
 		4E72D7291F0F75DF008FB0B9 /* XTBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D7241F0F75DF008FB0B9 /* XTBaseNavViewController.m */; };
 		4E72D72A1F0F75DF008FB0B9 /* XTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D7261F0F75DF008FB0B9 /* XTBaseViewController.m */; };
 		4E72D72B1F0F75DF008FB0B9 /* XTHttpbase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D7281F0F75DF008FB0B9 /* XTHttpbase.m */; };
@@ -38,6 +59,33 @@
 		4E72D73D1F0F8173008FB0B9 /* XTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D73C1F0F8173008FB0B9 /* XTColor.m */; };
 		4E72D7401F0F891E008FB0B9 /* XTPostMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D73F1F0F891E008FB0B9 /* XTPostMeViewController.m */; };
 		4E72D7431F0F9391008FB0B9 /* XTClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D7421F0F9391008FB0B9 /* XTClassViewController.m */; };
+		4EE08E641F14773500265E4D /* XTMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E621F14773500265E4D /* XTMeTableViewCell.m */; };
+		4EE08E651F14773500265E4D /* XTMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE08E631F14773500265E4D /* XTMeTableViewCell.xib */; };
+		4EE08E681F14CE0C00265E4D /* XTPostMoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E671F14CE0C00265E4D /* XTPostMoodView.m */; };
+		4EE08EA11F14D57B00265E4D /* ACMediaFrame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EE08E8B1F14D57B00265E4D /* ACMediaFrame.bundle */; };
+		4EE08EA21F14D57B00265E4D /* ACMediaImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E8F1F14D57B00265E4D /* ACMediaImageCell.m */; };
+		4EE08EA31F14D57B00265E4D /* ACMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E911F14D57B00265E4D /* ACMediaManager.m */; };
+		4EE08EA41F14D57B00265E4D /* ACMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E931F14D57B00265E4D /* ACMediaModel.m */; };
+		4EE08EA51F14D57B00265E4D /* ACSelectMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E951F14D57B00265E4D /* ACSelectMediaView.m */; };
+		4EE08EA61F14D57B00265E4D /* NSString+ACMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E981F14D57B00265E4D /* NSString+ACMediaExt.m */; };
+		4EE08EA71F14D57B00265E4D /* UIImage+ACGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E9A1F14D57B00265E4D /* UIImage+ACGif.m */; };
+		4EE08EA81F14D57B00265E4D /* UIImageView+ACMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E9C1F14D57B00265E4D /* UIImageView+ACMediaExt.m */; };
+		4EE08EA91F14D57B00265E4D /* UIView+ACMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08E9E1F14D57B00265E4D /* UIView+ACMediaExt.m */; };
+		4EE08EAA1F14D57B00265E4D /* UIViewController+ACMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EA01F14D57B00265E4D /* UIViewController+ACMediaExt.m */; };
+		4EE08EE81F14D85C00265E4D /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EC41F14D85C00265E4D /* NSBundle+TZImagePicker.m */; };
+		4EE08EE91F14D85C00265E4D /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EC61F14D85C00265E4D /* TZAssetCell.m */; };
+		4EE08EEA1F14D85C00265E4D /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EC81F14D85C00265E4D /* TZAssetModel.m */; };
+		4EE08EEB1F14D85C00265E4D /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ECA1F14D85C00265E4D /* TZGifPhotoPreviewController.m */; };
+		4EE08EEC1F14D85C00265E4D /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ECC1F14D85C00265E4D /* TZImageCropManager.m */; };
+		4EE08EED1F14D85C00265E4D /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ECE1F14D85C00265E4D /* TZImageManager.m */; };
+		4EE08EEE1F14D85C00265E4D /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EE08ECF1F14D85C00265E4D /* TZImagePickerController.bundle */; };
+		4EE08EEF1F14D85C00265E4D /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ED11F14D85C00265E4D /* TZImagePickerController.m */; };
+		4EE08EF01F14D85C00265E4D /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ED31F14D85C00265E4D /* TZPhotoPickerController.m */; };
+		4EE08EF11F14D85C00265E4D /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ED51F14D85C00265E4D /* TZPhotoPreviewCell.m */; };
+		4EE08EF21F14D85C00265E4D /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ED71F14D85C00265E4D /* TZPhotoPreviewController.m */; };
+		4EE08EF31F14D85C00265E4D /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08ED91F14D85C00265E4D /* TZProgressView.m */; };
+		4EE08EF41F14D85C00265E4D /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EDB1F14D85C00265E4D /* TZVideoPlayerController.m */; };
+		4EE08EF51F14D85C00265E4D /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE08EDD1F14D85C00265E4D /* UIView+Layout.m */; };
 		907907CFA9D8AF555B0B4A75 /* libPods-XTGoHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B25ED67DC6ACD10565FDAB /* libPods-XTGoHome.a */; };
 /* End PBXBuildFile section */
 
@@ -61,12 +109,30 @@
 /* Begin PBXFileReference section */
 		03C69B449D8C56D8C23F3CCD /* Pods-XTGoHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTGoHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTGoHome/Pods-XTGoHome.debug.xcconfig"; sourceTree = "<group>"; };
 		36B25ED67DC6ACD10565FDAB /* libPods-XTGoHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTGoHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0EE73F1F18B91500995CB6 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		4E0FD0F71F15B9F1000CF92E /* XTPostMoodCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPostMoodCollectionReusableView.h; sourceTree = "<group>"; };
+		4E0FD0F81F15B9F1000CF92E /* XTPostMoodCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPostMoodCollectionReusableView.m; sourceTree = "<group>"; };
+		4E0FD0F91F15B9F1000CF92E /* XTPostMoodCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTPostMoodCollectionReusableView.xib; sourceTree = "<group>"; };
+		4E0FD0FC1F15C58C000CF92E /* XTPostMoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPostMoodCollectionViewCell.h; sourceTree = "<group>"; };
+		4E0FD0FD1F15C58C000CF92E /* XTPostMoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPostMoodCollectionViewCell.m; sourceTree = "<group>"; };
+		4E0FD0FE1F15C58C000CF92E /* XTPostMoodCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTPostMoodCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E0FD1011F1721FC000CF92E /* XTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTButton.h; sourceTree = "<group>"; };
+		4E0FD1021F1721FC000CF92E /* XTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTButton.m; sourceTree = "<group>"; };
+		4E1AC9831F19DACB002FB717 /* XTShareMoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTShareMoodTableViewCell.h; sourceTree = "<group>"; };
+		4E1AC9841F19DACB002FB717 /* XTShareMoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTShareMoodTableViewCell.m; sourceTree = "<group>"; };
+		4E1AC9851F19DACB002FB717 /* XTShareMoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTShareMoodTableViewCell.xib; sourceTree = "<group>"; };
+		4E1AC9881F19F5EE002FB717 /* XTShareOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTShareOneViewController.h; sourceTree = "<group>"; };
+		4E1AC9891F19F5EE002FB717 /* XTShareOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTShareOneViewController.m; sourceTree = "<group>"; };
+		4E1AC98B1F19F605002FB717 /* XTShareTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTShareTwoViewController.h; sourceTree = "<group>"; };
+		4E1AC98C1F19F605002FB717 /* XTShareTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTShareTwoViewController.m; sourceTree = "<group>"; };
+		4E1AC98E1F19F617002FB717 /* XTShareThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTShareThreeViewController.h; sourceTree = "<group>"; };
+		4E1AC98F1F19F617002FB717 /* XTShareThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTShareThreeViewController.m; sourceTree = "<group>"; };
 		4E1DEA9C1F10814B005E56C6 /* XTHomeSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHomeSectionView.h; sourceTree = "<group>"; };
 		4E1DEA9D1F10814B005E56C6 /* XTHomeSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHomeSectionView.m; sourceTree = "<group>"; };
 		4E1DEA9F1F108165005E56C6 /* HomeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionView.xib; sourceTree = "<group>"; };
 		4E1DEAA11F1095F7005E56C6 /* XTBannerCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBannerCollectionReusableView.h; sourceTree = "<group>"; };
 		4E1DEAA21F1095F7005E56C6 /* XTBannerCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBannerCollectionReusableView.m; sourceTree = "<group>"; };
-		4E1DEAA61F109756005E56C6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4E1DEAA61F109756005E56C6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E1DEAA81F10BDF8005E56C6 /* XTHomeCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHomeCollectionReusableView.h; sourceTree = "<group>"; };
 		4E1DEAA91F10BDF8005E56C6 /* XTHomeCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHomeCollectionReusableView.m; sourceTree = "<group>"; };
 		4E1DEAAA1F10BDF8005E56C6 /* XTHomeCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTHomeCollectionReusableView.xib; sourceTree = "<group>"; };
@@ -76,6 +142,27 @@
 		4E1DEAB21F10C80E005E56C6 /* XTHomeHotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHomeHotCollectionViewCell.h; sourceTree = "<group>"; };
 		4E1DEAB31F10C80E005E56C6 /* XTHomeHotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHomeHotCollectionViewCell.m; sourceTree = "<group>"; };
 		4E1DEAB41F10C80E005E56C6 /* XTHomeHotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTHomeHotCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E532C301F132DB3008DA280 /* XTSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSlideSegmented.h; sourceTree = "<group>"; };
+		4E532C311F132DB3008DA280 /* XTSlideSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSlideSegmented.m; sourceTree = "<group>"; };
+		4E532C331F132E15008DA280 /* XLSlideSegmentedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmentedItem.h; sourceTree = "<group>"; };
+		4E532C341F132E15008DA280 /* XLSlideSegmentedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmentedItem.m; sourceTree = "<group>"; };
+		4E532C361F133239008DA280 /* XTOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTOneViewController.h; sourceTree = "<group>"; };
+		4E532C371F133239008DA280 /* XTOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTOneViewController.m; sourceTree = "<group>"; };
+		4E532C391F13326F008DA280 /* XTSchoolTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSchoolTwoViewController.h; sourceTree = "<group>"; };
+		4E532C3A1F13326F008DA280 /* XTSchoolTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSchoolTwoViewController.m; sourceTree = "<group>"; };
+		4E532C3C1F133285008DA280 /* XTSchoolThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSchoolThreeViewController.h; sourceTree = "<group>"; };
+		4E532C3D1F133285008DA280 /* XTSchoolThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSchoolThreeViewController.m; sourceTree = "<group>"; };
+		4E532C3F1F133347008DA280 /* XTSchoolTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSchoolTableViewCell.h; sourceTree = "<group>"; };
+		4E532C401F133347008DA280 /* XTSchoolTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSchoolTableViewCell.m; sourceTree = "<group>"; };
+		4E532C411F133347008DA280 /* XTSchoolTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTSchoolTableViewCell.xib; sourceTree = "<group>"; };
+		4E532C441F134205008DA280 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		4E532C451F134205008DA280 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		4E532C471F13431B008DA280 /* XLSlideSwitchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitchDelegate.h; sourceTree = "<group>"; };
+		4E532C481F1350B3008DA280 /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
+		4E532C491F1350B3008DA280 /* XLSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSwitch.m; sourceTree = "<group>"; };
+		4E532C4C1F137E9A008DA280 /* XTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMeViewController.h; sourceTree = "<group>"; };
+		4E532C4D1F137E9A008DA280 /* XTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMeViewController.m; sourceTree = "<group>"; };
+		4E532C4E1F137E9A008DA280 /* XTMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTMeViewController.xib; sourceTree = "<group>"; };
 		4E72D6B01F0F16F2008FB0B9 /* XTGoHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTGoHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E72D6B41F0F16F2008FB0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E72D6B61F0F16F2008FB0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -96,8 +183,6 @@
 		4E72D7151F0F2820008FB0B9 /* XTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTHeader.h; sourceTree = "<group>"; };
 		4E72D7161F0F3919008FB0B9 /* XTTabbrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTabbrViewController.h; sourceTree = "<group>"; };
 		4E72D7171F0F3919008FB0B9 /* XTTabbrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTabbrViewController.m; sourceTree = "<group>"; };
-		4E72D7191F0F3940008FB0B9 /* XTTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTabbar.h; sourceTree = "<group>"; };
-		4E72D71A1F0F3940008FB0B9 /* XTTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTabbar.m; sourceTree = "<group>"; };
 		4E72D7231F0F75DF008FB0B9 /* XTBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBaseNavViewController.h; sourceTree = "<group>"; };
 		4E72D7241F0F75DF008FB0B9 /* XTBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBaseNavViewController.m; sourceTree = "<group>"; };
 		4E72D7251F0F75DF008FB0B9 /* XTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBaseViewController.h; sourceTree = "<group>"; };
@@ -120,6 +205,59 @@
 		4E72D73F1F0F891E008FB0B9 /* XTPostMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPostMeViewController.m; sourceTree = "<group>"; };
 		4E72D7411F0F9391008FB0B9 /* XTClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTClassViewController.h; sourceTree = "<group>"; };
 		4E72D7421F0F9391008FB0B9 /* XTClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTClassViewController.m; sourceTree = "<group>"; };
+		4EE08E611F14773500265E4D /* XTMeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMeTableViewCell.h; sourceTree = "<group>"; };
+		4EE08E621F14773500265E4D /* XTMeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMeTableViewCell.m; sourceTree = "<group>"; };
+		4EE08E631F14773500265E4D /* XTMeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTMeTableViewCell.xib; sourceTree = "<group>"; };
+		4EE08E661F14CE0C00265E4D /* XTPostMoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPostMoodView.h; sourceTree = "<group>"; };
+		4EE08E671F14CE0C00265E4D /* XTPostMoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPostMoodView.m; sourceTree = "<group>"; };
+		4EE08E8B1F14D57B00265E4D /* ACMediaFrame.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ACMediaFrame.bundle; sourceTree = "<group>"; };
+		4EE08E8C1F14D57B00265E4D /* ACMediaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaFrame.h; sourceTree = "<group>"; };
+		4EE08E8D1F14D57B00265E4D /* ACMediaFrameConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaFrameConst.h; sourceTree = "<group>"; };
+		4EE08E8E1F14D57B00265E4D /* ACMediaImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaImageCell.h; sourceTree = "<group>"; };
+		4EE08E8F1F14D57B00265E4D /* ACMediaImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMediaImageCell.m; sourceTree = "<group>"; };
+		4EE08E901F14D57B00265E4D /* ACMediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaManager.h; sourceTree = "<group>"; };
+		4EE08E911F14D57B00265E4D /* ACMediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMediaManager.m; sourceTree = "<group>"; };
+		4EE08E921F14D57B00265E4D /* ACMediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaModel.h; sourceTree = "<group>"; };
+		4EE08E931F14D57B00265E4D /* ACMediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMediaModel.m; sourceTree = "<group>"; };
+		4EE08E941F14D57B00265E4D /* ACSelectMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSelectMediaView.h; sourceTree = "<group>"; };
+		4EE08E951F14D57B00265E4D /* ACSelectMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSelectMediaView.m; sourceTree = "<group>"; };
+		4EE08E971F14D57B00265E4D /* NSString+ACMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ACMediaExt.h"; sourceTree = "<group>"; };
+		4EE08E981F14D57B00265E4D /* NSString+ACMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ACMediaExt.m"; sourceTree = "<group>"; };
+		4EE08E991F14D57B00265E4D /* UIImage+ACGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ACGif.h"; sourceTree = "<group>"; };
+		4EE08E9A1F14D57B00265E4D /* UIImage+ACGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ACGif.m"; sourceTree = "<group>"; };
+		4EE08E9B1F14D57B00265E4D /* UIImageView+ACMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ACMediaExt.h"; sourceTree = "<group>"; };
+		4EE08E9C1F14D57B00265E4D /* UIImageView+ACMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ACMediaExt.m"; sourceTree = "<group>"; };
+		4EE08E9D1F14D57B00265E4D /* UIView+ACMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ACMediaExt.h"; sourceTree = "<group>"; };
+		4EE08E9E1F14D57B00265E4D /* UIView+ACMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ACMediaExt.m"; sourceTree = "<group>"; };
+		4EE08E9F1F14D57B00265E4D /* UIViewController+ACMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ACMediaExt.h"; sourceTree = "<group>"; };
+		4EE08EA01F14D57B00265E4D /* UIViewController+ACMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ACMediaExt.m"; sourceTree = "<group>"; };
+		4EE08EC31F14D85C00265E4D /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		4EE08EC41F14D85C00265E4D /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		4EE08EC51F14D85C00265E4D /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		4EE08EC61F14D85C00265E4D /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		4EE08EC71F14D85C00265E4D /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		4EE08EC81F14D85C00265E4D /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		4EE08EC91F14D85C00265E4D /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		4EE08ECA1F14D85C00265E4D /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		4EE08ECB1F14D85C00265E4D /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		4EE08ECC1F14D85C00265E4D /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		4EE08ECD1F14D85C00265E4D /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		4EE08ECE1F14D85C00265E4D /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		4EE08ECF1F14D85C00265E4D /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		4EE08ED01F14D85C00265E4D /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		4EE08ED11F14D85C00265E4D /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		4EE08ED21F14D85C00265E4D /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		4EE08ED31F14D85C00265E4D /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		4EE08ED41F14D85C00265E4D /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		4EE08ED51F14D85C00265E4D /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		4EE08ED61F14D85C00265E4D /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		4EE08ED71F14D85C00265E4D /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		4EE08ED81F14D85C00265E4D /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		4EE08ED91F14D85C00265E4D /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		4EE08EDA1F14D85C00265E4D /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		4EE08EDB1F14D85C00265E4D /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		4EE08EDC1F14D85C00265E4D /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		4EE08EDD1F14D85C00265E4D /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		A7ED39DFE80225A84867B269 /* Pods-XTGoHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTGoHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTGoHome/Pods-XTGoHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0EE7401F18B91500995CB6 /* libxml2.tbd in Frameworks */,
 				907907CFA9D8AF555B0B4A75 /* libPods-XTGoHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +430,8 @@
 		4E72D6EC1F0F2188008FB0B9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				4EE08EAB1F14D85C00265E4D /* TZImagePickerController */,
+				4EE08E8A1F14D57B00265E4D /* ACMediaFrame */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -311,8 +452,6 @@
 				4E72D7171F0F3919008FB0B9 /* XTTabbrViewController.m */,
 				4E72D7411F0F9391008FB0B9 /* XTClassViewController.h */,
 				4E72D7421F0F9391008FB0B9 /* XTClassViewController.m */,
-				4E72D7191F0F3940008FB0B9 /* XTTabbar.h */,
-				4E72D71A1F0F3940008FB0B9 /* XTTabbar.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -345,6 +484,9 @@
 		4E72D6F21F0F2188008FB0B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EE08E611F14773500265E4D /* XTMeTableViewCell.h */,
+				4EE08E621F14773500265E4D /* XTMeTableViewCell.m */,
+				4EE08E631F14773500265E4D /* XTMeTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -354,6 +496,9 @@
 			children = (
 				4E72D72F1F0F76A0008FB0B9 /* XTMineViewController.h */,
 				4E72D7301F0F76A0008FB0B9 /* XTMineViewController.m */,
+				4E532C4C1F137E9A008DA280 /* XTMeViewController.h */,
+				4E532C4D1F137E9A008DA280 /* XTMeViewController.m */,
+				4E532C4E1F137E9A008DA280 /* XTMeViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -402,6 +547,14 @@
 		4E72D6F91F0F2188008FB0B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EE08E661F14CE0C00265E4D /* XTPostMoodView.h */,
+				4EE08E671F14CE0C00265E4D /* XTPostMoodView.m */,
+				4E0FD0FC1F15C58C000CF92E /* XTPostMoodCollectionViewCell.h */,
+				4E0FD0FD1F15C58C000CF92E /* XTPostMoodCollectionViewCell.m */,
+				4E0FD0FE1F15C58C000CF92E /* XTPostMoodCollectionViewCell.xib */,
+				4E0FD0F71F15B9F1000CF92E /* XTPostMoodCollectionReusableView.h */,
+				4E0FD0F81F15B9F1000CF92E /* XTPostMoodCollectionReusableView.m */,
+				4E0FD0F91F15B9F1000CF92E /* XTPostMoodCollectionReusableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +598,9 @@
 		4E72D6FE1F0F2188008FB0B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E532C3F1F133347008DA280 /* XTSchoolTableViewCell.h */,
+				4E532C401F133347008DA280 /* XTSchoolTableViewCell.m */,
+				4E532C411F133347008DA280 /* XTSchoolTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -454,6 +610,14 @@
 			children = (
 				4E72D7351F0F7702008FB0B9 /* XTSchoolViewController.h */,
 				4E72D7361F0F7702008FB0B9 /* XTSchoolViewController.m */,
+				4E532C361F133239008DA280 /* XTOneViewController.h */,
+				4E532C371F133239008DA280 /* XTOneViewController.m */,
+				4E532C391F13326F008DA280 /* XTSchoolTwoViewController.h */,
+				4E532C3A1F13326F008DA280 /* XTSchoolTwoViewController.m */,
+				4E532C441F134205008DA280 /* CollectionViewController.h */,
+				4E532C451F134205008DA280 /* CollectionViewController.m */,
+				4E532C3C1F133285008DA280 /* XTSchoolThreeViewController.h */,
+				4E532C3D1F133285008DA280 /* XTSchoolThreeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -525,6 +689,9 @@
 		4E72D7081F0F2188008FB0B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E1AC9831F19DACB002FB717 /* XTShareMoodTableViewCell.h */,
+				4E1AC9841F19DACB002FB717 /* XTShareMoodTableViewCell.m */,
+				4E1AC9851F19DACB002FB717 /* XTShareMoodTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -534,6 +701,12 @@
 			children = (
 				4E72D7381F0F7732008FB0B9 /* XTShareViewController.h */,
 				4E72D7391F0F7732008FB0B9 /* XTShareViewController.m */,
+				4E1AC9881F19F5EE002FB717 /* XTShareOneViewController.h */,
+				4E1AC9891F19F5EE002FB717 /* XTShareOneViewController.m */,
+				4E1AC98B1F19F605002FB717 /* XTShareTwoViewController.h */,
+				4E1AC98C1F19F605002FB717 /* XTShareTwoViewController.m */,
+				4E1AC98E1F19F617002FB717 /* XTShareThreeViewController.h */,
+				4E1AC98F1F19F617002FB717 /* XTShareThreeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -543,6 +716,15 @@
 			children = (
 				4E72D73B1F0F8173008FB0B9 /* XTColor.h */,
 				4E72D73C1F0F8173008FB0B9 /* XTColor.m */,
+				4E532C481F1350B3008DA280 /* XLSlideSwitch.h */,
+				4E532C491F1350B3008DA280 /* XLSlideSwitch.m */,
+				4E532C301F132DB3008DA280 /* XTSlideSegmented.h */,
+				4E532C311F132DB3008DA280 /* XTSlideSegmented.m */,
+				4E532C331F132E15008DA280 /* XLSlideSegmentedItem.h */,
+				4E532C341F132E15008DA280 /* XLSlideSegmentedItem.m */,
+				4E532C471F13431B008DA280 /* XLSlideSwitchDelegate.h */,
+				4E0FD1011F1721FC000CF92E /* XTButton.h */,
+				4E0FD1021F1721FC000CF92E /* XTButton.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -560,6 +742,76 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		4EE08E8A1F14D57B00265E4D /* ACMediaFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4EE08E8B1F14D57B00265E4D /* ACMediaFrame.bundle */,
+				4EE08E8C1F14D57B00265E4D /* ACMediaFrame.h */,
+				4EE08E8D1F14D57B00265E4D /* ACMediaFrameConst.h */,
+				4EE08E8E1F14D57B00265E4D /* ACMediaImageCell.h */,
+				4EE08E8F1F14D57B00265E4D /* ACMediaImageCell.m */,
+				4EE08E901F14D57B00265E4D /* ACMediaManager.h */,
+				4EE08E911F14D57B00265E4D /* ACMediaManager.m */,
+				4EE08E921F14D57B00265E4D /* ACMediaModel.h */,
+				4EE08E931F14D57B00265E4D /* ACMediaModel.m */,
+				4EE08E941F14D57B00265E4D /* ACSelectMediaView.h */,
+				4EE08E951F14D57B00265E4D /* ACSelectMediaView.m */,
+				4EE08E961F14D57B00265E4D /* Libraries */,
+			);
+			path = ACMediaFrame;
+			sourceTree = "<group>";
+		};
+		4EE08E961F14D57B00265E4D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4EE08E971F14D57B00265E4D /* NSString+ACMediaExt.h */,
+				4EE08E981F14D57B00265E4D /* NSString+ACMediaExt.m */,
+				4EE08E991F14D57B00265E4D /* UIImage+ACGif.h */,
+				4EE08E9A1F14D57B00265E4D /* UIImage+ACGif.m */,
+				4EE08E9B1F14D57B00265E4D /* UIImageView+ACMediaExt.h */,
+				4EE08E9C1F14D57B00265E4D /* UIImageView+ACMediaExt.m */,
+				4EE08E9D1F14D57B00265E4D /* UIView+ACMediaExt.h */,
+				4EE08E9E1F14D57B00265E4D /* UIView+ACMediaExt.m */,
+				4EE08E9F1F14D57B00265E4D /* UIViewController+ACMediaExt.h */,
+				4EE08EA01F14D57B00265E4D /* UIViewController+ACMediaExt.m */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		4EE08EAB1F14D85C00265E4D /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				4EE08EC31F14D85C00265E4D /* NSBundle+TZImagePicker.h */,
+				4EE08EC41F14D85C00265E4D /* NSBundle+TZImagePicker.m */,
+				4EE08EC51F14D85C00265E4D /* TZAssetCell.h */,
+				4EE08EC61F14D85C00265E4D /* TZAssetCell.m */,
+				4EE08EC71F14D85C00265E4D /* TZAssetModel.h */,
+				4EE08EC81F14D85C00265E4D /* TZAssetModel.m */,
+				4EE08EC91F14D85C00265E4D /* TZGifPhotoPreviewController.h */,
+				4EE08ECA1F14D85C00265E4D /* TZGifPhotoPreviewController.m */,
+				4EE08ECB1F14D85C00265E4D /* TZImageCropManager.h */,
+				4EE08ECC1F14D85C00265E4D /* TZImageCropManager.m */,
+				4EE08ECD1F14D85C00265E4D /* TZImageManager.h */,
+				4EE08ECE1F14D85C00265E4D /* TZImageManager.m */,
+				4EE08ECF1F14D85C00265E4D /* TZImagePickerController.bundle */,
+				4EE08ED01F14D85C00265E4D /* TZImagePickerController.h */,
+				4EE08ED11F14D85C00265E4D /* TZImagePickerController.m */,
+				4EE08ED21F14D85C00265E4D /* TZPhotoPickerController.h */,
+				4EE08ED31F14D85C00265E4D /* TZPhotoPickerController.m */,
+				4EE08ED41F14D85C00265E4D /* TZPhotoPreviewCell.h */,
+				4EE08ED51F14D85C00265E4D /* TZPhotoPreviewCell.m */,
+				4EE08ED61F14D85C00265E4D /* TZPhotoPreviewController.h */,
+				4EE08ED71F14D85C00265E4D /* TZPhotoPreviewController.m */,
+				4EE08ED81F14D85C00265E4D /* TZProgressView.h */,
+				4EE08ED91F14D85C00265E4D /* TZProgressView.m */,
+				4EE08EDA1F14D85C00265E4D /* TZVideoPlayerController.h */,
+				4EE08EDB1F14D85C00265E4D /* TZVideoPlayerController.m */,
+				4EE08EDC1F14D85C00265E4D /* UIView+Layout.h */,
+				4EE08EDD1F14D85C00265E4D /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
 		76022BAD2C07EF2D24554FE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +824,7 @@
 		B9DAD542800D6A7998499586 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E0EE73F1F18B91500995CB6 /* libxml2.tbd */,
 				36B25ED67DC6ACD10565FDAB /* libPods-XTGoHome.a */,
 			);
 			name = Frameworks;
@@ -692,12 +945,20 @@
 			files = (
 				4E1DEAA71F109756005E56C6 /* Podfile in Resources */,
 				4E72D6C31F0F16F2008FB0B9 /* LaunchScreen.storyboard in Resources */,
+				4E0FD0FB1F15B9F1000CF92E /* XTPostMoodCollectionReusableView.xib in Resources */,
 				4E1DEAB11F10C242005E56C6 /* XTHomeCollectionViewCell.xib in Resources */,
 				4E1DEAA01F108165005E56C6 /* HomeSectionView.xib in Resources */,
+				4EE08E651F14773500265E4D /* XTMeTableViewCell.xib in Resources */,
+				4E532C431F133347008DA280 /* XTSchoolTableViewCell.xib in Resources */,
 				4E72D6C01F0F16F2008FB0B9 /* Assets.xcassets in Resources */,
+				4E532C501F137E9A008DA280 /* XTMeViewController.xib in Resources */,
 				4E1DEAAC1F10BDF8005E56C6 /* XTHomeCollectionReusableView.xib in Resources */,
 				4E72D6BE1F0F16F2008FB0B9 /* Main.storyboard in Resources */,
+				4EE08EEE1F14D85C00265E4D /* TZImagePickerController.bundle in Resources */,
+				4EE08EA11F14D57B00265E4D /* ACMediaFrame.bundle in Resources */,
 				4E1DEAB61F10C80E005E56C6 /* XTHomeHotCollectionViewCell.xib in Resources */,
+				4E1AC9871F19DACB002FB717 /* XTShareMoodTableViewCell.xib in Resources */,
+				4E0FD1001F15C58C000CF92E /* XTPostMoodCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,23 +1034,62 @@
 				4E72D72E1F0F7628008FB0B9 /* XTHomeViewController.m in Sources */,
 				4E72D7311F0F76A0008FB0B9 /* XTMineViewController.m in Sources */,
 				4E72D7341F0F76CA008FB0B9 /* XTPostViewController.m in Sources */,
+				4EE08EA91F14D57B00265E4D /* UIView+ACMediaExt.m in Sources */,
+				4EE08E681F14CE0C00265E4D /* XTPostMoodView.m in Sources */,
+				4E532C421F133347008DA280 /* XTSchoolTableViewCell.m in Sources */,
+				4EE08E641F14773500265E4D /* XTMeTableViewCell.m in Sources */,
+				4E1AC98A1F19F5EE002FB717 /* XTShareOneViewController.m in Sources */,
 				4E72D7431F0F9391008FB0B9 /* XTClassViewController.m in Sources */,
 				4E72D73D1F0F8173008FB0B9 /* XTColor.m in Sources */,
+				4EE08EA61F14D57B00265E4D /* NSString+ACMediaExt.m in Sources */,
 				4E72D7401F0F891E008FB0B9 /* XTPostMeViewController.m in Sources */,
+				4E532C351F132E15008DA280 /* XLSlideSegmentedItem.m in Sources */,
+				4E0FD0FA1F15B9F1000CF92E /* XTPostMoodCollectionReusableView.m in Sources */,
+				4EE08EE91F14D85C00265E4D /* TZAssetCell.m in Sources */,
+				4EE08EEC1F14D85C00265E4D /* TZImageCropManager.m in Sources */,
+				4E532C461F134205008DA280 /* CollectionViewController.m in Sources */,
+				4EE08EF31F14D85C00265E4D /* TZProgressView.m in Sources */,
+				4EE08EF01F14D85C00265E4D /* TZPhotoPickerController.m in Sources */,
+				4E532C321F132DB3008DA280 /* XTSlideSegmented.m in Sources */,
 				4E72D6BB1F0F16F2008FB0B9 /* ViewController.m in Sources */,
+				4E532C4A1F1350B3008DA280 /* XLSlideSwitch.m in Sources */,
+				4E0FD1031F1721FC000CF92E /* XTButton.m in Sources */,
 				4E72D7291F0F75DF008FB0B9 /* XTBaseNavViewController.m in Sources */,
-				4E72D71B1F0F3940008FB0B9 /* XTTabbar.m in Sources */,
 				4E1DEA9E1F10814B005E56C6 /* XTHomeSectionView.m in Sources */,
 				4E1DEAAB1F10BDF8005E56C6 /* XTHomeCollectionReusableView.m in Sources */,
+				4E532C381F133239008DA280 /* XTOneViewController.m in Sources */,
+				4EE08EF51F14D85C00265E4D /* UIView+Layout.m in Sources */,
+				4EE08EA41F14D57B00265E4D /* ACMediaModel.m in Sources */,
 				4E1DEAB51F10C80E005E56C6 /* XTHomeHotCollectionViewCell.m in Sources */,
+				4EE08EED1F14D85C00265E4D /* TZImageManager.m in Sources */,
+				4EE08EF41F14D85C00265E4D /* TZVideoPlayerController.m in Sources */,
+				4E1AC9861F19DACB002FB717 /* XTShareMoodTableViewCell.m in Sources */,
+				4E0FD0FF1F15C58C000CF92E /* XTPostMoodCollectionViewCell.m in Sources */,
+				4EE08EA71F14D57B00265E4D /* UIImage+ACGif.m in Sources */,
+				4EE08EEF1F14D85C00265E4D /* TZImagePickerController.m in Sources */,
 				4E1DEAA31F1095F7005E56C6 /* XTBannerCollectionReusableView.m in Sources */,
+				4EE08EA21F14D57B00265E4D /* ACMediaImageCell.m in Sources */,
 				4E72D7371F0F7702008FB0B9 /* XTSchoolViewController.m in Sources */,
+				4EE08EF21F14D85C00265E4D /* TZPhotoPreviewController.m in Sources */,
+				4EE08EE81F14D85C00265E4D /* NSBundle+TZImagePicker.m in Sources */,
 				4E1DEAB01F10C242005E56C6 /* XTHomeCollectionViewCell.m in Sources */,
 				4E72D6B81F0F16F2008FB0B9 /* AppDelegate.m in Sources */,
+				4EE08EA81F14D57B00265E4D /* UIImageView+ACMediaExt.m in Sources */,
+				4E532C4F1F137E9A008DA280 /* XTMeViewController.m in Sources */,
+				4E532C3E1F133285008DA280 /* XTSchoolThreeViewController.m in Sources */,
 				4E72D72A1F0F75DF008FB0B9 /* XTBaseViewController.m in Sources */,
+				4EE08EEB1F14D85C00265E4D /* TZGifPhotoPreviewController.m in Sources */,
 				4E72D7181F0F3919008FB0B9 /* XTTabbrViewController.m in Sources */,
+				4EE08EEA1F14D85C00265E4D /* TZAssetModel.m in Sources */,
 				4E72D6B51F0F16F2008FB0B9 /* main.m in Sources */,
+				4EE08EA51F14D57B00265E4D /* ACSelectMediaView.m in Sources */,
+				4E532C3B1F13326F008DA280 /* XTSchoolTwoViewController.m in Sources */,
+				4E1AC9901F19F617002FB717 /* XTShareThreeViewController.m in Sources */,
 				4E72D72B1F0F75DF008FB0B9 /* XTHttpbase.m in Sources */,
+				4E1AC98D1F19F605002FB717 /* XTShareTwoViewController.m in Sources */,
+				4EE08EAA1F14D57B00265E4D /* UIViewController+ACMediaExt.m in Sources */,
+				4EE08EF11F14D85C00265E4D /* TZPhotoPreviewCell.m in Sources */,
+				4EE08EA31F14D57B00265E4D /* ACMediaManager.m in Sources */,
 				4E72D73A1F0F7732008FB0B9 /* XTShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

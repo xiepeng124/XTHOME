@@ -13,6 +13,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.backgroundColor = [XTColor colorWithHexString:WHITE_COLOR];
+    self.menuTitle.textColor = [XTColor colorWithHexString:DARK_COLOR];
+    self.lineView.backgroundColor = [XTColor colorWithHexString:BACK_COLOR];
     // Initialization code
 }
 

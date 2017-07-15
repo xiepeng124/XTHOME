@@ -20,4 +20,6 @@ pod 'SDCycleScrollView'
 pod 'ZFPlayer'
 pod 'ZFDownload'
 pod 'MWPhotoBrowser'
+pod 'PopMenu'
+pod 'YYText'
 end

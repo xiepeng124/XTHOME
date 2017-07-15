@@ -28,12 +28,15 @@
 }
 //重写导航栏右边按钮
 -(void)initRightNavigationItem{
-    UIBarButtonItem *rightButton1 = [[UIBarButtonItem alloc] initWithTitle:nil style:UIBarButtonItemStylePlain target:self action:@selector(selectRightAction:)];
+    UIBarButtonItem *rightButton1 = [[UIBarButtonItem alloc] initWithTitle:nil style:UIBarButtonItemStylePlain target:self action:@selector(selectRightAction)];
     rightButton1.image=[UIImage imageNamed:@"Release-the-mood"];
     UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]   initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace   target:nil action:nil];
-    negativeSpacer.width=-5;
+    negativeSpacer.width=-10;
 
     self.navigationItem.rightBarButtonItems =@[negativeSpacer, rightButton1];
+}
+-(void)selectRightAction{
+    
 }
 /*
 #pragma mark - Navigation

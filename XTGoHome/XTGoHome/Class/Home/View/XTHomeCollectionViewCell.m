@@ -13,6 +13,11 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.backgroundColor = [XTColor colorWithHexString:WHITE_COLOR];
+    self.perImage.layer.cornerRadius = 3
+    ;
+    self.perImage.layer.masksToBounds = YES;
+    self.personName.textColor = [XTColor colorWithHexString:DARK_COLOR];
+    
     // Initialization code
 }
 
