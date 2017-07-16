@@ -7,21 +7,71 @@
 //
 
 #import "XTShareViewController.h"
-
-@interface XTShareViewController ()
-
+#import "XTShareOneViewController.h"
+#import "XTShareTwoViewController.h"
+#import "XTShareThreeViewController.h"
+#import "XLSlideSwitch.h"
+#import "CollectionViewController.h"
+@interface XTShareViewController ()<XLSlideSwitchDelegate>
+@property (strong,nonatomic) XLSlideSwitch *slideSwitch;
 @end
 
 @implementation XTShareViewController
+#pragma mark - init UI
+- (void)buildUI {
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    //要显示的标题
+    NSArray *titles = @[@"甜心心情",@"最新发布",@"最新回复"];
+    //创建需要展示的ViewController
+    NSMutableArray *viewControllers = [[NSMutableArray alloc] init];
+    for (NSInteger i = 0 ; i<titles.count; i++) {
+        UIViewController *vc = [self viewControllerOfIndex:i];
+        [viewControllers addObject:vc];
+    }
+    //创建滚动视图
+    _slideSwitch = [[XLSlideSwitch alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 64) Titles:titles viewControllers:viewControllers];
+    //设置代理
+    _slideSwitch.delegate = self;
+    //设置按钮选中和未选中状态的标题颜色
+    _slideSwitch.itemSelectedColor = [XTColor colorWithHexString:PINK_COLOR];
+    _slideSwitch.itemNormalColor = [XTColor colorWithHexString:DARK_GARY_COLOR];
+    //显示方法
+    [_slideSwitch showInViewController:self];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-      self.view.backgroundColor = [UIColor greenColor];
-    UIView *vies = [[UIView alloc]initWithFrame:CGRectMake(10, 100, SCREEN_WIDTH, 20)];
-    [self.view addSubview:vies];
+    self.view.backgroundColor = [XTColor colorWithHexString:LIGHT_COLOR];
+    [self buildUI];
+   
     // Do any additional setup after loading the view.
 }
+#pragma mark SlideSwitchDelegate
 
+- (void)slideSwitchDidselectAtIndex:(NSInteger)index {
+    NSLog(@"切换到了第 -- %zd -- 个视图",index);
+}
+
+#pragma mark 自定义方法
+- (UIViewController *)viewControllerOfIndex:(NSInteger)index {
+    UIViewController *vc;
+    switch (index) {
+        case 0:
+            vc = [[XTShareOneViewController alloc] init];
+            break;
+        case 1:
+            vc = [[XTShareTwoViewController alloc] init];
+            break;
+            
+        case 2:
+            vc = [[CollectionViewController alloc] init];
+            break;
+        default:
+            break;
+    }
+    return vc;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
